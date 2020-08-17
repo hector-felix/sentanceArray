@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- e4_6.html - A solution to Exercise 4.6
+-->
+<html lang = "en">
+    <head>
+        <title> Exercise 4.6 </title>
+        <meta charset = "utf-8" />
+    </head>
+    <body>
+        <script type = "text/javascript">
+            str = prompt("Please input your sentence", "");
+            var words = str.split(" ");
+            words = words.sort();
+            var words_len = words.length;
+            for (count = 0; count < words_len; count++)
+                document.write(words[count] + "<br />");
+        </script>
+    </body>
+</html>
